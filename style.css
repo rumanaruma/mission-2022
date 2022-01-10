@@ -68,3 +68,15 @@ h2{
     width: 100%;
 }
 .box3 img{width: 40%;}
+.link-button2{
+    text-decoration: none;
+    background-color: orange;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(tomato,hsl(19, 100%, 50%));
+
+}
+footer{
+    text-align: center;
+}
