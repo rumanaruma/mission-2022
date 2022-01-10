@@ -1,13 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
     }
-h1{
-    font-size: 50px;
+.soto-margin{
+    font-size: 30px;
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato,orange) ;
+    border-image-slice: 1;
   }
 .orange-color{
     color: orange;
              }
-section{
+.flexible-container{
     display:flex;
 }
 .half-width{
@@ -25,3 +28,43 @@ section{
     color: white;
     background-image: linear-gradient(tomato,hsl(19, 100%, 50%));
 }
+h2{
+    text-align: center;
+}
+.mission-vision-goals-area{
+    padding-left: 8%;
+}
+.box1{
+    box-shadow: 10px 10px 60px gray;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding-left: 10px;
+    background: #cbc2d3;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.box1 img{width: 40%;}
+.box2{
+    box-shadow: 10px 10px 60px gray;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding-left: 10px;
+    background-color: rgb(192, 161, 166);
+    border-radius: 10px;
+    width: 100%;
+}
+.box2 img{width: 40%;}
+.box3{
+    box-shadow: 10px 10px 60px gray;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding-left: 10px;
+    background-color: rgb(218, 148, 148);
+    border-radius: 10px;
+    width: 100%;
+}
+.box3 img{width: 40%;}
